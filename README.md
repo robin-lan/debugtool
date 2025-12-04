@@ -1,7 +1,10 @@
 debugtool
 =
 You can use this tool to help debug.
-
+# description
+1. 这个工具用于记录程序调用linux系统接口。虽然其他程序也有这个功能，但为了能更自由操作，所以自己再写一个。
+2. Hook的方法是修改syscall table的地址，实现拦截。
+3. 工具还有其他一些功能，类似dump其他进出的内存、反汇编驱动特点地址的内存。
 # compile
 `./build.sh`
 ## output:
